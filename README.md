@@ -1,21 +1,20 @@
-# JJCD- MI FUTURO IA — proyecto Android inicial
+# JJCD- MI FUTURO IA
 
-Versión de arranque: 0.1.0. Aplicación nativa Android en Java, idioma inicial español.
+Base inicial de una aplicación web instalable (PWA) y preparada para empaquetarse con Capacitor para Android.
 
-## Estado
-- Incluye la estructura Android y una pantalla inicial con los módulos principales.
-- Los módulos son todavía marcadores de navegación: no generan imágenes ni vídeos IA aún.
-- No se incluye APK compilada ni firma de publicación.
-- La generación IA se integrará por separado, priorizando modelos abiertos/locales y servicios opcionales. No se promete generación remota ilimitada gratuita: los servidores y modelos pueden requerir recursos y tener licencias/condiciones.
+**Importante:** esta versión es solo la interfaz inicial. Todavía no genera imágenes ni vídeos reales. Para ello habrá que conectar proveedores de IA mediante un servidor seguro; no se deben colocar claves secretas en el navegador.
 
-## Requisitos para compilar
-- Android Studio reciente.
-- JDK 17 o compatible con la versión de Android Gradle Plugin.
-- Android SDK Platform 35 y herramientas de compilación correspondientes.
-- Abrir esta carpeta en Android Studio y ejecutar la sincronización de Gradle.
+## Modos previstos
+- Película completa desde un prompt
+- Texto a vídeo
+- Imagen a vídeo
+- Animación de fotos
+- Transformación de vídeo
+- Creación de imágenes
 
-## Identidad
-- Nombre: JJCD- MI FUTURO IA
-- Paquete: com.jjcd.mifuturoia
-- Idioma predeterminado: español
-- minSdk: 26 (Android 8.0 o superior)
+## Desarrollo
+Requiere Node.js y npm:
+1. `npm install`
+2. `npm run build`
+
+Para compilar una APK se necesitará configurar Android Studio y Capacitor en un equipo compatible.
